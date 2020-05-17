@@ -1,0 +1,131 @@
+.container {
+  background-color: #27343f;
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+  max-width: 100%;
+  // background-color: #F1F5F5;
+  // border:1px solid red;
+  background-image: url("../images/triangle.png");
+  background-repeat: no-repeat;
+  background-size: 100% 180px;
+}
+
+.bar {
+  height: 4px;
+  width: 80px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.title {
+  padding-top: 10%;
+  color: #f76449;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.paragraph {
+  color: #fff;
+  padding-top: 3%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.paragraphlink{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 425px) {
+.container {
+  background-size: 100% 40px;
+}
+
+.bar {
+  width: 60px;
+}
+
+.title {
+  padding-top: 20%;
+}
+
+.paragraph {
+  font-size: 16px;
+  max-width: 80%;
+}
+.paragraphlink{
+  font-size: 16px;
+}
+
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .container {
+    background-size: 100% 70px;
+  }
+  
+  .bar {
+    width: 60px;
+  }
+  
+  .title {
+    padding-top: 15%;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    max-width: 80%;
+  }
+  .paragraphlink{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px)  {
+  .container {
+    background-size: 100% 90px;
+  }
+  
+  .bar {
+    width: 60px;
+  }
+  
+  .title {
+    padding-top: 10%;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    max-width: 80%;
+  }
+  .paragraphlink{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px)  {
+  .container {
+    background-size: 100% 90px;
+  }
+  
+  .bar {
+    width: 60px;
+  }
+  
+  .title {
+    padding-top: 10%;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    max-width: 80%;
+  }
+  .paragraphlink{
+    font-size: 18px;
+  }
+}

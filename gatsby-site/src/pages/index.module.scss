@@ -1,0 +1,79 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  max-width: 100%;
+  // width:  100%;
+  // border:1px solid red;
+  background-image: url("../images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  // background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  // height: 500px;
+}
+
+.slogan {
+  // margin-top:18%;
+  padding-top: 21%;
+  color: #53585f;
+  font-size: 55px;
+}
+
+.web {
+  color: #f76449;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.icon {
+  color: #53585f;
+  font-size: 45px;
+  margin: 1%;
+}
+
+a:hover {
+  color: #f76449;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    height: 75vh;
+    max-width: auto;
+  }
+  .slogan {
+    padding-top: 70%;
+    font-size: 1.5em;
+  }
+  .web {
+    font-size: 1.4em;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .container {
+    height: 100vh;
+    max-width: auto;
+  }
+  .slogan {
+    padding-top: 50%;
+    font-size: 45px;
+  }
+  .web {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .container {
+    height: 100vh;
+    max-width: auto;
+  }
+  .slogan {
+    padding-top: 40%;
+  }
+}
