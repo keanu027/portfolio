@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("./image/homebg1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin);
+  color: white;
+}
+
+.About-header {
+  background-image: url("./image/about1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
+
+.Portfolio-header {
+  background-color: #f4f3f4;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin);
+  color: black;
+}
+
+.Footer-header {
+  background-color: rgba(53, 58, 64);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+  .App-header {
+    font-size: calc(7px + 2vmin);
+    max-height: 75vh;
+  }
+  .About-header {
+    background-size: 50%;
+    min-height: 100vh;
+    font-size: calc(5px + 2vmin);
+  }
+  .Portfolio-header {
+    min-height: 10vh;
+    font-size: calc(5px + 2vmin);
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .About-header {
+    font-size: calc(1px + 2vmin);
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .About-header {
+    font-size: calc(1px + 2vmin);
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .About-header {
+    font-size: calc(1px + 2vmin);
+  }
+}
+@media screen and (min-width: 2000px) {
+  .About-header {
+    font-size: calc(1px + 2vmin);
+  }
+}

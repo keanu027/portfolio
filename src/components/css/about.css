@@ -1,0 +1,336 @@
+.about-title {
+  font-size: 35px;
+}
+
+.content-about {
+  font-size: calc(3px + 2vmin);
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: justify;
+  color: #696a6c;
+}
+
+.resume {
+  min-height: 100vh;
+  padding-top: 3%;
+}
+.resume-content-educ {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.headertitle {
+  color: #f05e23;
+  font-size: 25px;
+  font-weight: 650;
+  text-transform: uppercase;
+}
+
+.coursetitle {
+  color: black;
+  font-size: 22px;
+  padding-left: 11.1%;
+  font-weight: 700;
+}
+.company {
+  color: black;
+  font-size: calc(3px + 2vmin);
+  padding-left: 11.7%;
+  margin-top: -1%;
+  font-weight: 650;
+}
+.course {
+  color: black;
+  font-size: calc(3px + 2vmin);
+  padding-left: 11.7%;
+}
+
+.course-content {
+  color: #696a6c;
+  font-size: calc(3px + 2vmin);
+  padding-left: 11.7%;
+  /* border: 1px solid red; */
+  text-align: justify;
+  max-width: 66%;
+}
+
+.boomcamp {
+  font-size: calc(3px + 2vmin);
+  color: #696a6c;
+}
+
+.boomcamp:hover {
+  color: #f05e23;
+}
+
+.skill-content {
+  color: black;
+  font-size: calc(3px + 2vmin);
+  padding-left: 11.7%;
+  /* border: 1px solid red; */
+  text-align: justify;
+  max-width: 66%;
+}
+
+.skills-icons {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(53, 58, 64);
+  color: white;
+  font-weight: 650;
+}
+
+.skills-icons:hover {
+  background-color: #f05e23;
+}
+
+.skills-container {
+  font-weight: 600;
+  font-size: calc(3px + 2vmin);
+  line-height: 45px;
+}
+
+@media screen and (max-width: 425px) {
+  .about-title {
+    font-size: 25px;
+  }
+
+  .content-about {
+    font-size: calc(6px + 2vmin);
+    max-width: 80%;
+  }
+
+  .resume {
+    padding-top: 0%;
+  }
+
+  .resume-content-educ {
+    padding-left: 8%;
+  }
+  .headertitle {
+    font-size: 18px;
+  }
+
+  .coursetitle {
+    font-size: 15px;
+    padding-left: 3%;
+    font-weight: 650;
+  }
+
+  .company {
+    font-size: calc(6px + 2vmin);
+    padding-left: 3%;
+    margin-top: -5%;
+  }
+
+  .course {
+    font-size: calc(5px + 2vmin);
+    padding-left: 3%;
+  }
+
+  .course-content {
+    font-size: calc(6px + 2vmin);
+    padding-left: 3%;
+    max-width: 85%;
+  }
+
+  .boomcamp {
+    font-size: calc(6px + 2vmin);
+  }
+
+  .skill-content {
+    font-size: calc(6px + 2vmin);
+    padding-left: 3%;
+    max-width: 80%;
+  }
+
+  .skills-container {
+    font-size: calc(6px + 2vmin);
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .about-title {
+    font-size: 30px;
+  }
+
+  .content-about {
+    max-width: 80%;
+  }
+
+  .resume {
+    padding-top: 0%;
+  }
+
+  .resume-content-educ {
+    padding-left: 6%;
+  }
+  .headertitle {
+    font-size: 20px;
+  }
+
+  .coursetitle {
+    font-size: calc(5px + 2vmin);
+    padding-left: 4%;
+    font-weight: 650;
+    max-width: 80%;
+  }
+
+  .company {
+    padding-left: 5%;
+    margin-top: -3%;
+  }
+
+  .course {
+    padding-left: 5%;
+  }
+
+  .course-content {
+    padding-left: 5%;
+    max-width: 84%;
+  }
+
+  .skill-content {
+    padding-left: 5%;
+    max-width: 84%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .about-title {
+    font-size: 35px;
+  }
+
+  .content-about {
+    max-width: 80%;
+  }
+
+  .resume {
+    padding-top: 0%;
+  }
+
+  .resume-content-educ {
+    padding-left: 6.5%;
+  }
+  .headertitle {
+    font-size: 25px;
+  }
+
+  .coursetitle {
+    font-size: calc(6px + 2vmin);
+    padding-left: 3.5%;
+    font-weight: 650;
+  }
+
+  .company {
+    padding-left: 5%;
+    margin-top: -3%;
+  }
+
+  .course {
+    padding-left: 5%;
+  }
+
+  .course-content {
+    padding-left: 5%;
+    max-width: 84%;
+  }
+
+  .skill-content {
+    padding-left: 5%;
+    max-width: 84%;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .about-title {
+    font-size: 35px;
+  }
+
+  .content-about {
+    max-width: 80%;
+  }
+
+  .resume {
+    padding-top: 0%;
+  }
+
+  .resume-content-educ {
+    padding-left: 6%;
+  }
+  .headertitle {
+    font-size: 25px;
+  }
+
+  .coursetitle {
+    font-size: calc(6px + 2vmin);
+    padding-left: 4.2%;
+    font-weight: 650;
+  }
+
+  .company {
+    padding-left: 5%;
+    margin-top: -2%;
+  }
+
+  .course {
+    padding-left: 5%;
+  }
+
+  .course-content {
+    padding-left: 5%;
+    max-width: 84.2%;
+  }
+
+  .skill-content {
+    padding-left: 5%;
+    max-width: 84.2%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .about-title {
+    font-size: 45px;
+  }
+
+  .content-about {
+    max-width: 80%;
+  }
+
+  .resume {
+    padding-top: 0%;
+  }
+
+  .resume-content-educ {
+    padding-left: 6%;
+  }
+  .headertitle {
+    font-size: 35px;
+  }
+
+  .coursetitle {
+    font-size: calc(6px + 2vmin);
+    padding-left: 4.1%;
+    font-weight: 650;
+    max-width: 80%;
+  }
+
+  .company {
+    padding-left: 5%;
+    margin-top: -1.5%;
+  }
+
+  .course {
+    padding-left: 5%;
+  }
+
+  .course-content {
+    padding-left: 5%;
+    max-width: 84.2%;
+  }
+
+  .skill-content {
+    padding-left: 5%;
+    max-width: 84.2%;
+  }
+}

@@ -1,0 +1,17 @@
+.title-about {
+  font-size: 36px;
+}
+.content-portfolio {
+  color: #696a6c;
+}
+
+.img-portfolio {
+  max-width: 40%;
+  padding: 5%;
+}
+
+@media screen and (max-width: 425px) {
+  .title-about {
+    font-size: 25px;
+  }
+}
