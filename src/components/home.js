@@ -12,7 +12,7 @@ function Home() {
         <h1 className="title">Hi, I'm Keanu Manly</h1>
         <p className="content">
           Nice to meet you! I'm Front-End Developer from the Philippines
-          experience creating web applications. who love working on Creative
+          experience creating web applications. who loves working on Creative
           Idea, Designing and Creating Intuitive, Fast, Dynamic, Responsive
           Website into reality. and i love to work with a team and project
           collaborations. Let's work together.{" "}

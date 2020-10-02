@@ -157,10 +157,10 @@
 
 @media screen and (max-width: 320px) {
   .menubar {
-    padding: 1em 17em;
+    padding: 1em 16.5em;
   }
   .menubar.active {
-    padding: 1em 17em;
+    padding: 1em 16.5em;
   }
   .navlist {
     display: none;
@@ -176,10 +176,10 @@
 }
 @media screen and (max-width: 375px) and (min-width: 321px) {
   .menubar {
-    padding: 1em 20.5em;
+    padding: 1em 19.5em;
   }
   .menubar.active {
-    padding: 1em 20.5em;
+    padding: 1em 19.5em;
   }
   .showmenubar {
     padding: 1em 7.5em;
@@ -202,10 +202,10 @@
 
 @media screen and (max-width: 425px) and (min-width: 376px) {
   .menubar {
-    padding: 1em 23.5em;
+    padding: 1em 22.3em;
   }
   .menubar.active {
-    padding: 1em 23.5em;
+    padding: 1em 22.3em;
   }
   .showmenubar {
     padding: 1em 9em;

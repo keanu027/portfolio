@@ -11,10 +11,10 @@ function About() {
       <div className="about" id="about">
         <h3 className="about-title">About Me</h3>
         <p className="content-about">
-          Keanu Manly is a Philippines-based Web Developer who love to work in
-          Productive Environment. I started learning Web Development back when i
-          was in college. My first job was a Junior Developer in a BPO Company
-          based in Utah.
+          I am a Philippines-based Web Developer who love to work in Productive
+          Environment. I started learning Web Development back when i was in
+          college. My first job was a Junior Developer in a BPO Company based in
+          Utah.
         </p>
 
         <div className="resume">
@@ -60,7 +60,7 @@ function About() {
               - Build Reusable, Responsive Components.
             </p>
             <p className="course-content">
-              - Create clean and well document code to easily understand and
+              - Create clean and well document code to easily understand,
               maintain,and update the projects.
             </p>
           </div>
@@ -68,7 +68,7 @@ function About() {
           <div className="resume-content-educ">
             <p className="headertitle">Skills </p>
             <p className="course-content">
-              This is the Technologies I mainly uses.
+              These are the languages {"&"} tools I mainly uses.
             </p>
             <p className="skill-content">
               <span className="skills-container">

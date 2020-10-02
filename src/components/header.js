@@ -9,7 +9,7 @@ function Header() {
   const [showbar, setshowbar] = useState(false);
 
   const Navbarbgcolorchanger = () => {
-    if (window.scrollY >= 600) {
+    if (window.scrollY >= 100) {
       setnavbaractive(true);
     } else {
       setnavbaractive(false);
