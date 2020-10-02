@@ -1,0 +1,78 @@
+.icons-arrowup {
+  font-size: 40px;
+  color: white;
+}
+.icons-arrowup:hover {
+  color: #f05e23;
+}
+
+.icons-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-github-footer {
+  font-size: 40px;
+  color: white;
+  margin: 10%;
+}
+.icons-github-footer:hover {
+  color: #f05e23;
+}
+
+.icons-linkedin-footer {
+  font-size: 40px;
+  color: white;
+  margin: 10%;
+}
+
+.icons-linkedin-footer:hover {
+  color: #f05e23;
+}
+
+.icons-gmail-footer {
+  font-size: 30px;
+  color: white;
+  margin: 10%;
+}
+
+.icons-gmail-footer:hover {
+  color: #f05e23;
+}
+
+@media screen and (max-width: 425px) {
+  .icons-github-footer {
+    font-size: 25px;
+  }
+  .icons-linkedin-footer {
+    font-size: 25px;
+  }
+  .icons-gmail-footer {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .icons-github-footer {
+    font-size: 35px;
+  }
+  .icons-linkedin-footer {
+    font-size: 35px;
+  }
+  .icons-gmail-footer {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .icons-github-footer {
+    font-size: 60px;
+  }
+  .icons-linkedin-footer {
+    font-size: 60px;
+  }
+  .icons-gmail-footer {
+    font-size: 50px;
+  }
+}

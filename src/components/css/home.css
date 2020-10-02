@@ -1,0 +1,151 @@
+.home {
+  height: 100vh;
+}
+
+.title {
+  padding-top: 12%;
+  font-size: 70px;
+}
+.content {
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 59%;
+  margin-top: -1%;
+}
+.getintouch {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+}
+
+.getintouch:hover {
+  color: #f05e23;
+  font-weight: 800;
+}
+
+.icons-github {
+  font-size: 40px;
+  color: inherit;
+  margin: 1%;
+}
+.icons-github:hover {
+  color: #f05e23;
+}
+
+.icons-linkedin {
+  font-size: 40px;
+  color: inherit;
+  margin: 1%;
+}
+
+.icons-linkedin:hover {
+  color: #f05e23;
+}
+
+.icons {
+  margin-top: 2%;
+}
+
+.icons-arrowdown {
+  font-size: 40px;
+  color: inherit;
+  margin: 1%;
+}
+.icons-arrowdown:hover {
+  color: #f05e23;
+}
+.arrowdown {
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    padding-top: 20%;
+    font-size: 30px;
+  }
+  .content {
+    max-width: 80%;
+  }
+  .icons-github {
+    font-size: 30px;
+  }
+  .icons-linkedin {
+    font-size: 30px;
+  }
+
+  .icons-arrowdown {
+    font-size: 30px;
+  }
+  .arrowdown {
+    margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .title {
+    padding-top: 35%;
+    font-size: 35px;
+  }
+  .content {
+    max-width: 80%;
+  }
+  .icons-github {
+    font-size: 35px;
+  }
+  .icons-linkedin {
+    font-size: 35px;
+  }
+
+  .icons-arrowdown {
+    font-size: 35px;
+  }
+  .arrowdown {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .title {
+    padding-top: 20%;
+    font-size: 40px;
+  }
+  .content {
+    max-width: 80%;
+  }
+  .arrowdown {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .title {
+    padding-top: 20%;
+    font-size: 45px;
+  }
+  .arrowdown {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .home {
+    min-height: 100vh;
+  }
+  .title {
+    padding-top: 15%;
+    font-size: 80px;
+  }
+
+  .icons-github {
+    font-size: 60px;
+  }
+  .icons-linkedin {
+    font-size: 60px;
+  }
+  .icons-arrowdown {
+    font-size: 60px;
+  }
+  .arrowdown {
+    margin-top: 10%;
+  }
+}
