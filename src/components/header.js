@@ -22,7 +22,6 @@ function Header() {
       }
     }
   };
-  console.log(navbaractive, showbar);
 
   window.addEventListener("scroll", Navbarbgcolorchanger);
 
