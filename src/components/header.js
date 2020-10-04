@@ -9,12 +9,20 @@ function Header() {
   const [showbar, setshowbar] = useState(false);
 
   const Navbarbgcolorchanger = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 1) {
+      if (showbar === true) {
+        setnavbaractive(true);
+      }
       setnavbaractive(true);
     } else {
-      setnavbaractive(false);
+      if (showbar === true) {
+        setnavbaractive(true);
+      } else {
+        setnavbaractive(false);
+      }
     }
   };
+  console.log(navbaractive, showbar);
 
   window.addEventListener("scroll", Navbarbgcolorchanger);
 
@@ -45,13 +53,16 @@ function Header() {
               onClick={(event) => {
                 event.preventDefault();
                 setshowbar(!showbar);
+                setnavbaractive(true);
               }}
             />
           </a>
         </nav>
         <header
           className={navbaractive ? "showmenubar active" : "showmenubar"}
-          style={{ display: showbar ? "inline-block" : "none" }}
+          style={{
+            display: showbar ? "inline-block" : "none",
+          }}
         >
           <nav>
             <ul className="mobilenavlist">

@@ -11,10 +11,10 @@ function About() {
       <div className="about" id="about">
         <h3 className="about-title">About Me</h3>
         <p className="content-about">
-          I am a Philippines-based Web Developer who love to work in Productive
-          Environment. I started learning Web Development back when i was in
-          college. My first job was a Junior Developer in a BPO Company based in
-          Utah.
+          I am a Philippine-based Web Developer who loves to work in a
+          productive environment. I learned Web Development when I was in
+          college. I had my first job as a Junior Developer for a BPO company
+          based in Utah.
         </p>
 
         <div className="resume">
