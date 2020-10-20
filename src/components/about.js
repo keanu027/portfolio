@@ -87,6 +87,7 @@ function About() {
               <span className="skills-container">
                 • Back-End :
                 <span className="skills-icons">NODEJS</span>{" "}
+                <span className="skills-icons">ExpressJS</span>{" "}
                  <span className="skills-icons">PYTHON</span>{" "}
                 <span className="skills-icons">DJANGO</span>
               </span>
