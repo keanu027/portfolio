@@ -76,7 +76,6 @@ function About() {
                 <span className="skills-icons">CSS3</span>{" "}
                 <span className="skills-icons">JAVASCRIPT</span>{" "}
                 <span className="skills-icons">JQUERY</span>{" "}
-                <span className="skills-icons">NODEJS</span>{" "}
                 <span className="skills-icons">REACTJS</span>{" "}
                 <span className="skills-icons">DOCKER</span>{" "}
                 <span className="skills-icons">POSTGRESQL</span>{" "}
@@ -86,7 +85,9 @@ function About() {
             </p>
             <p className="skill-content">
               <span className="skills-container">
-                • Back-End : <span className="skills-icons">PYTHON</span>{" "}
+                • Back-End :
+                <span className="skills-icons">NODEJS</span>{" "}
+                 <span className="skills-icons">PYTHON</span>{" "}
                 <span className="skills-icons">DJANGO</span>
               </span>
             </p>
